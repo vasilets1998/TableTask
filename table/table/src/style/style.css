@@ -1,0 +1,31 @@
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #333 url('//cdnjs.cloudflare.com/ajax/libs/file-uploader/3.7.0/processing.gif') no-repeat center center;
+}
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -16px;
+    height: 70px;
+    width: 100%;
+    background-color: #343a40;
+}
+.conteiner a{
+    color: darkred;
+    font-size: 17px;
+    font-weight: bolder;
+     
+}
+.conteiner a:hover{
+    text-decoration: none;
+    color:  darkred;
+    border-bottom: solid darkred;
+}
